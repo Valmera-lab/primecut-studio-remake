@@ -1,4 +1,13 @@
 {
   "buildCommand": "bun run build",
-  "outputDirectory": "dist"
+  "installCommand": "bun install",
+  "env": {
+    "NODE_ENV": "production"
+  },
+  "framework": "other",
+  "functions": {
+    "api/**": {
+      "maxDuration": 60
+    }
+  }
 }
