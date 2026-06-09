@@ -82,6 +82,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:site_name", content: "Prime Cut Media" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Prime Cut Media" },
+      { name: "twitter:title", content: "Prime Cut Media" },
+      { property: "og:description", content: "Cinematic reels for luxury real estate." },
+      { name: "twitter:description", content: "Cinematic reels for luxury real estate." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/88d345d7-1580-48d5-bfef-ea18496deaf6/id-preview-151fe9cd--fff62739-da4a-42a0-bc8c-d2182898ef57.lovable.app-1781034445852.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/88d345d7-1580-48d5-bfef-ea18496deaf6/id-preview-151fe9cd--fff62739-da4a-42a0-bc8c-d2182898ef57.lovable.app-1781034445852.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
