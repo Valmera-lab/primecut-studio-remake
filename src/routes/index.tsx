@@ -251,7 +251,7 @@ function Testimonials() {
   const quotes = [
     "Prime Cut produced twenty reels from a single Eaton Square viewing. Three of them generated direct enquiries from international buyers within the week. They have become indispensable.",
     "The cinematography rivals our magazine campaigns, but at a fraction of the cost and turnaround. Our listings now have a presence on social that matches the quality of the homes themselves.",
-    "We retained Prime Cut on the Pro plan for our Cap Ferrat collection. Reels from a single tour now reach more qualified buyers than a full month of paid media.",
+    "We commissioned Prime Cut for our Cap Ferrat collection. Reels from a single tour now reach more qualified buyers than a full month of paid media.",
   ];
   return (
     <section className="py-32 px-6 border-t border-border">
