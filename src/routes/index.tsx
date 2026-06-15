@@ -277,8 +277,8 @@ function Investment() {
   const plans = [
     {
       name: "The Signature Trim",
-      price: "£299",
-      tag: "An elegant entry — the Prime Cut treatment for the agent listing one signature property a month.",
+      price: "£999",
+      tag: "An elegant entry — the Prime Cut treatment for one signature property.",
       features: [
         "4 bespoke viral clips",
         "Luxury captioning & typography",
@@ -289,10 +289,10 @@ function Investment() {
       ],
     },
     {
-      name: "The Elite Retainer",
-      price: "£499",
+      name: "The Elite Cut",
+      price: "£1,800",
       featured: true,
-      tag: "Our most considered tier — for agents who list in earnest and want a sustained presence.",
+      tag: "Our most considered tier — for agents who want a commanding presence on every platform.",
       features: [
         "12 bespoke viral clips",
         "Custom hook strategy by our copy desk",
@@ -304,9 +304,9 @@ function Investment() {
       ],
     },
     {
-      name: "The Empire Plan",
-      price: "£899",
-      tag: "For the brokerage building a media empire across an entire portfolio of listings.",
+      name: "The Empire Cut",
+      price: "£2,900",
+      tag: "For the brokerage building a media empire across an entire portfolio.",
       features: [
         "Unlimited viral clips",
         "Cross-platform distribution — TikTok, Reels & Shorts",
