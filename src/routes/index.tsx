@@ -323,10 +323,10 @@ function Investment() {
       <div className="mx-auto max-w-7xl">
         <SectionLabel numeral="V" title="Investment" />
         <h2 className="text-4xl md:text-6xl max-w-4xl leading-[1.1]">
-          A retainer, <span className="italic-serif text-primary">not a project fee.</span>
+          One project, <span className="italic-serif text-primary">one investment.</span>
         </h2>
         <p className="mt-6 max-w-2xl text-muted-foreground">
-          Three plans, billed monthly. Cancel with 30 days' notice — most of our agents do not.
+          Three packages, one-time fee. No retainers, no recurring bills — just a single cut that keeps performing.
         </p>
         <div className="mt-16 grid md:grid-cols-3 gap-6">
           {plans.map((p) => (
