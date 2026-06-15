@@ -336,14 +336,14 @@ function Investment() {
             >
               {p.featured && (
                 <span className="absolute -top-3 left-10 bg-primary text-primary-foreground px-3 py-1 text-[10px] uppercase tracking-[0.2em]">
-                  Most Subscribed
+                  Most Popular
                 </span>
               )}
               <h3 className="text-2xl">{p.name}</h3>
               <p className="mt-3 text-sm text-muted-foreground leading-relaxed">{p.tag}</p>
               <div className="mt-6 flex items-baseline gap-1">
                 <span className="font-serif text-5xl text-cream">{p.price}</span>
-                <span className="text-muted-foreground text-sm">/ month</span>
+                <span className="text-muted-foreground text-sm">one-time</span>
               </div>
               <ul className="mt-8 space-y-3 text-sm text-cream/90">
                 {p.features.map((f) => (
@@ -361,13 +361,13 @@ function Investment() {
                     : "border border-cream/30 text-cream hover:border-primary hover:text-primary"
                 }`}
               >
-                Subscribe to {p.name}
+                Select {p.name}
               </a>
             </div>
           ))}
         </div>
         <p className="mt-10 text-xs uppercase tracking-[0.2em] text-muted-foreground text-center">
-          All payments processed securely via Stripe. VAT applied where applicable.
+          One-time payment processed securely via Stripe. VAT applied where applicable.
         </p>
       </div>
     </section>
