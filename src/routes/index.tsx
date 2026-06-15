@@ -251,7 +251,7 @@ function Testimonials() {
   const quotes = [
     "Prime Cut produced twenty reels from a single Eaton Square viewing. Three of them generated direct enquiries from international buyers within the week. They have become indispensable.",
     "The cinematography rivals our magazine campaigns, but at a fraction of the cost and turnaround. Our listings now have a presence on social that matches the quality of the homes themselves.",
-    "We retained Prime Cut on the Pro plan for our Cap Ferrat collection. Reels from a single tour now reach more qualified buyers than a full month of paid media.",
+    "We commissioned Prime Cut for our Cap Ferrat collection. Reels from a single tour now reach more qualified buyers than a full month of paid media.",
   ];
   return (
     <section className="py-32 px-6 border-t border-border">
@@ -277,8 +277,8 @@ function Investment() {
   const plans = [
     {
       name: "The Signature Trim",
-      price: "£299",
-      tag: "An elegant entry — the Prime Cut treatment for the agent listing one signature property a month.",
+      price: "£999",
+      tag: "An elegant entry — the Prime Cut treatment for one signature property.",
       features: [
         "4 bespoke viral clips",
         "Luxury captioning & typography",
@@ -289,10 +289,10 @@ function Investment() {
       ],
     },
     {
-      name: "The Elite Retainer",
-      price: "£499",
+      name: "The Elite Cut",
+      price: "£1,800",
       featured: true,
-      tag: "Our most considered tier — for agents who list in earnest and want a sustained presence.",
+      tag: "Our most considered tier — for agents who want a commanding presence on every platform.",
       features: [
         "12 bespoke viral clips",
         "Custom hook strategy by our copy desk",
@@ -304,9 +304,9 @@ function Investment() {
       ],
     },
     {
-      name: "The Empire Plan",
-      price: "£899",
-      tag: "For the brokerage building a media empire across an entire portfolio of listings.",
+      name: "The Empire Cut",
+      price: "£2,900",
+      tag: "For the brokerage building a media empire across an entire portfolio.",
       features: [
         "Unlimited viral clips",
         "Cross-platform distribution — TikTok, Reels & Shorts",
@@ -323,10 +323,10 @@ function Investment() {
       <div className="mx-auto max-w-7xl">
         <SectionLabel numeral="V" title="Investment" />
         <h2 className="text-4xl md:text-6xl max-w-4xl leading-[1.1]">
-          A retainer, <span className="italic-serif text-primary">not a project fee.</span>
+          One project, <span className="italic-serif text-primary">one investment.</span>
         </h2>
         <p className="mt-6 max-w-2xl text-muted-foreground">
-          Three plans, billed monthly. Cancel with 30 days' notice — most of our agents do not.
+          Three packages, one-time fee. No retainers, no recurring bills — just a single cut that keeps performing.
         </p>
         <div className="mt-16 grid md:grid-cols-3 gap-6">
           {plans.map((p) => (
@@ -336,14 +336,14 @@ function Investment() {
             >
               {p.featured && (
                 <span className="absolute -top-3 left-10 bg-primary text-primary-foreground px-3 py-1 text-[10px] uppercase tracking-[0.2em]">
-                  Most Subscribed
+                  Most Popular
                 </span>
               )}
               <h3 className="text-2xl">{p.name}</h3>
               <p className="mt-3 text-sm text-muted-foreground leading-relaxed">{p.tag}</p>
               <div className="mt-6 flex items-baseline gap-1">
                 <span className="font-serif text-5xl text-cream">{p.price}</span>
-                <span className="text-muted-foreground text-sm">/ month</span>
+                <span className="text-muted-foreground text-sm">one-time</span>
               </div>
               <ul className="mt-8 space-y-3 text-sm text-cream/90">
                 {p.features.map((f) => (
@@ -361,13 +361,13 @@ function Investment() {
                     : "border border-cream/30 text-cream hover:border-primary hover:text-primary"
                 }`}
               >
-                Subscribe to {p.name}
+                Select {p.name}
               </a>
             </div>
           ))}
         </div>
         <p className="mt-10 text-xs uppercase tracking-[0.2em] text-muted-foreground text-center">
-          All payments processed securely via Stripe. VAT applied where applicable.
+          One-time payment processed securely via Stripe. VAT applied where applicable.
         </p>
       </div>
     </section>
